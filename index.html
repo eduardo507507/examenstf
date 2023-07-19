@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXAMEN DESARROLLO DE SOFTWARE 5</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pacifico">
+</head>
+
+<body>
+
+
+
+
+
+
+    <header class="header" id="inicio">
+        <img class="hamburguer" src="img/hamburguesa.svg" alt="">
+
+        <nav class="menu-navegacion">
+            <a href="#inicio">INCIO</a>
+            <a href="#servicio">INFORMACION</a>
+            <a href="#galeria">PRODUCTOS</a>
+            <a href="#expertos">VIDEOS</a>
+            <a href="#footer">CONTACTO</a>
+        </nav>
+
+
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pacifico">
+        <style>
+            /* Definir el estilo del título */
+            .titulo {
+                font-size: 85px;
+                text-align: center;
+                font-family: "Roboto", sans-serif;
+                padding: 20px;
+                color: transparent;
+                background-image: linear-gradient(to top, #dbdcd7 0%, #dddcd7 24%, #e2c9cc 30%, #e7627d 46%, #b8235a 59%, #801357 71%, #3d1635 84%, #1c1a27 100%);
+                -webkit-background-clip: text;
+                background-clip: text;
+
+                -webkit-text-stroke: 2px #FFC0CB;
+                -webkit-text-fill-color: transparent;
+                text-stroke: 2px #FFC0CB;
+                text-fill-color: transparent;
+            }
+
+
+
+
+            /* Definir la animación para el primer título */
+            @keyframes movimiento1 {
+                0% {
+                    transform: translateX(0);
+                }
+
+                50% {
+                    transform: translateX(20px);
+                }
+
+                100% {
+                    transform: translateX(0);
+                }
+            }
+
+            /* Definir la animación para el segundo título */
+            @keyframes movimiento2 {
+                0% {
+                    transform: translateX(0);
+                }
+
+                50% {
+                    transform: translateX(-20px);
+                }
+
+                100% {
+                    transform: translateX(0);
+                }
+            }
+
+            /* Aplicar la animación a los títulos */
+            .titulo:nth-child(1) {
+                animation: movimiento1 2s ease-in-out infinite;
+            }
+
+            .titulo:nth-child(2) {
+                animation: movimiento2 2s ease-in-out infinite;
+            }
+        </style>
+
+        <div class="contenedor head">
+            <h1 class="titulo">QUICK BUY PTY</h1>
+
+        </div>
+
+
+
+    </header>
+    <main>
+        <section class="services contenedor" id="servicio">
+            <h2 class="subtitulo">INFORMACION</h2>
+            <div class="contenedor-servicio">
+                <div class="checklist-servicio">
+                    <div class="service">
+
+
+                        <div class="service">
+                            <h3 class="n-service"><span class="number">1</span>Administradora</h3>
+                            <div class="directivos contenedor">
+                                <div class="directivos-info">
+                                    <div class="directivo">
+                                        <img src="img/perfil.jpg" alt="Foto del Director Ejecutivo">
+                                        <h3 class="n-directivo">Ivis Dlegado</h3>
+                                        <p>Administradora</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="service">
+                            <h3 class="n-service"><span class="number">2</span>Contacto</h3>
+                            <div class="contacto contenedor">
+                                <div class="informacion-contacto">
+                                    <p>Teléfono: +507 6441-3795</p>
+                                    <p>Email: serverus700@gmail.com</p>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    
+
+                    <div class="service">
+                        <h3 class="n-service"><span class="number">3</span>Quienes Somos</h3>
+                        <div class="directivos contenedor">
+                            <div class="directivos-info">
+                                <div class="directivo">
+
+
+                                    <table style="border: 1px solid #ccc;">
+                                        <tr>
+                                            <th style="border: 1px solid #ccc; padding: 8px;">QUIENES SOMOS?</th>
+                                        </tr>
+                                        <tr>
+                                            <td style="border: 1px solid #ccc; padding: 8px;">
+                                                <h3>Misión</h3>
+                                                <p>
+                                                    En Quick Buy Pty, nuestra misión es facilitar el acceso a productos
+                                                    de alta calidad a precios más bajos a través de compras en línea.
+                                                    Nos esforzamos por ser la mejor opción para aquellos que buscan
+                                                    productos asequibles en Internet, brindando una experiencia de
+                                                    compra rápida, conveniente y confiable.</p>
+                                                <h3>Visión</h3>
+                                                <p>Visión:
+                                                    Nuestra visión en Quick Buy Pty es convertirnos en líderes
+                                                    reconocidos en el mercado de compras en línea, ofreciendo una amplia
+                                                    variedad de productos de calidad a precios competitivos. Buscamos
+                                                    ser una plataforma confiable y accesible para que nuestros clientes
+                                                    encuentren los productos que necesitan, ahorrando tiempo y dinero al
+                                                    realizar sus compras.</p>
+                                                <p>Queremos marcar la diferencia al proporcionar un servicio excepcional
+                                                    y una experiencia de compra excepcional. A través de nuestra visión,
+                                                    nos esforzamos por ser una empresa innovadora que se adapte a las
+                                                    últimas tendencias tecnológicas y a las necesidades cambiantes de
+                                                    nuestros clientes, siempre manteniendo nuestro compromiso de ofrecer
+                                                    productos de calidad a precios asequibles.</p>
+                                                <p>En resumen, en Quick Buy Pty, nos dedicamos a proporcionar una amplia
+                                                    gama de productos de Internet a precios más bajos, brindando una
+                                                    experiencia de compra en línea fácil y conveniente para nuestros
+                                                    clientes mientras nos esforzamos por alcanzar la excelencia en
+                                                    nuestro servicio.</p>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h3 class="n-service"><span class="number">4</span>Ubicación</h3>
+                    <div class="ubicacion contenedor">
+                        <div class="mapa">
+                    
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3320.2225761391333!2d-80.54449952638159!3d8.259694228246993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zOMKwMTUnMzQuMiJOIDgwwrAzMiczMy41Ilc!5e0!3m2!1ses!2spa!4v1689725156640!5m2!1ses!2spa" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    
+                            
+                    </div>
+                </div>
+
+
+
+
+            </div>
+
+
+
+        </section>
+
+        <section class="gallery" id="galeria">
+            <div class="contenedor">
+                <h2 class="subtitulo">Galeria</h2>
+                <div class="contenedor-galeria">
+                    <img src="img/uno.jpg" class="img-galeria" alt="Hola"
+                        data-info="Limpiador antiacné Acibath es un limpiador líquido formulado a base de ácido salicílico su precio es de 81.00 $">
+                    <img src="img/dos.jpg" class="img-galeria" alt="" data-info="la roche-posay Effaclar gel espumoso purificante pieles grasas y sensible tubo de 200 ml 11,60$">
+                    <img src="img/tres.jpg" class="img-galeria" alt="" data-info="Cetopic serum 22% es un suero a base de vitamina c 185$">
+                    <img src="img/cuatro.jpg" class="img-galeria" alt="" data-info="Glicolic crema avanzada formula hidratante , multiples usos 20$">
+                    <img src="img/cinco.jpg" class="img-galeria" alt="" data-info="Vitamina c 1.000 mg  15$">
+                    <img src="img/seis.jpg" class="img-galeria" alt="" data-info="Magnesium 500 mg de natures bounty a 30 $">
+                </div>
+            </div>
+        </section>
+        <div class="imagen-light">
+            <img src="img/close.svg" alt="" class="close">
+            <img src="" alt="" class="agregar-imagen">
+        </div>
+
+        <section class="contenedor" id="expertos">
+            <h2 class="subtitulo">PROMOCION</h2>
+            <section class="experts">
+                <div class="ubicacion contenedor">
+                    <video src="img/1.mp4" controls></video>
+                </div>
+            </section>
+        </section>
+
+
+
+        
+
+
+
+
+
+    </main>
+
+    <footer id="footer">
+        <div class="contenedor footer-content">
+            <div class="contact-us">
+                <h2 class="brand">EDUARDO & JOANA</h2>
+
+            </div>
+            <div class="social-media">
+                <a href="https://www.facebook.com" class="social-media-icon">
+                    <i class='bx bxl-facebook'></i>
+                </a>
+
+                <a href="https://www.instagram.com" class="social-media-icon">
+                    <i class='bx bxl-instagram'></i>
+                </a>
+
+                <a href="https://twitter.com" class="social-media-icon">
+                    <i class='bx bxl-twitter'></i>
+                </a>
+                <a href="https://t.me" class="social-media-icon">
+                    <i class='bx bxl-telegram'></i>
+                </a>
+                <a href="https://wa.me" class="social-media-icon">
+                    <i class='bx bxl-whatsapp'></i>
+                </a>
+
+
+            </div>
+        </div>
+        <div class="line"></div>
+    </footer>
+    <script src="js/menu.js"></script>
+    <script src="js/lightbox.js"></script>
+</body>
+
+</html>
